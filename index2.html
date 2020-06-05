@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="style2.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all">
+    <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-font-face.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Black&White Newsletter</title>
+</head>
+
+<body class="body_b">
+    <!--Navbar-->
+    <div id="container">
+        <nav class="navbar nav navbar-expand-lg navbar-light bg-white">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand playfair-font margin-logo" href="#"> <img src="ImgNegozio/logo.jpg" width="30" height="30" class="d-inline-block align-top" alt=""> Black&White
+            </a>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link playfair-font" href="index.html">Home <span class="sr-only"></span></a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link playfair-font" href="index2.html" tabindex="-1" aria-disabled="true">Newsletter</a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!--fine navbar-->
+    <div class=" centerText container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <p class="phead">Black & white</p>
+                <p class="pcenter">Iscriviti alla nostra Newsletter!</p>
+                <p class="pcenter">Iscriviti qui e riceverai subito il 10% di sconto sul tuo primo acquisto!</p>
+            </div>
+        </div>
+    </div>
+    <!--form-->
+    <div class="containerS">
+        <form>
+
+            <div class="form-row">
+                <div class="pcenter form-group col-md-8">
+                    <label for="input_mail1">Scrivi qui il tuo indirizzo mail</label>
+                    <input id="mail_newsletter" type="email" placeholder="mymail@gmail.com" class="pcenter form-control" aria-describedby="emailHelp">
+                    <div hidden id="alert_mail_validation" class="alert alert-dark borderColor" role="alert">
+                        La tua mail non è valida!
+                    </div>
+                    <!--alert mail-->
+                    <div hidden id="alert_mail" class="alert alert-dark borderColor" role="alert">
+                        Inserisci la tua mail
+                    </div>
+                    <div>
+                        <small id="privacy" class="pcenter form-text ">
+                            *Cliccando su invia, accetti che i tuoi dati vengano utilizzati secondo la nostra politica di trattamento della privacy.
+                            <br>
+                            Il voucher è valido solo una volta su un ordine di almeno 50€, esclusi alcuni prodotti e i buoni regalo.
+                            <br>
+                            Il voucher viene inviato una sola volta per ciascun cliente.
+                        </small>
+                    </div>
+                </div>
+                <div class=" pcenter form-group col-md-4">
+                    <div class="pcenter custom-control custom-radio">
+                        <input type="radio" id="customRadio1" name="radio_button" value="Donna" class="custom-control-input">
+                        <label class="custom-control-label" for="customRadio1">Donna</label>
+                    </div>
+                    <div class="pcenter custom-control custom-radio">
+                        <input type="radio" id="customRadio2" name="radio_button" value="Uomo" class="custom-control-input">
+                        <label class="custom-control-label" for="customRadio2">Uomo</label>
+                    </div>
+                    <div class="pcenter custom-control custom-radio">
+                        <input type="radio" id="customRadio3" name="radio_button" value="freetobe" class="custom-control-input">
+                        <label class=" custom-control-label" for="customRadio3">Free to be!</label>
+                    </div>
+                    <div hidden id="alert_radio" class="pcenter alert alert-dark borderColor" role="alert">
+                        Scegli uno dei tre!
+                    </div>
+
+                </div>
+                <div class=" centerText row">
+                    <div class="col-2">
+                        <button id="button_submit" type="button" class="pcenter btn btn-dark">Invia</button>
+                    </div>
+                    <div class="col-10">
+                        <div hidden id="alert_success" class="pcenter alert alert-success" role="alert">
+                            <p>Ti ringraziamo per esserti iscritto!</p>
+                            <hr>
+                            <p class="pcenter">Riceverai presto tutte le new sulle nostre collezioni e i vari sconti e promozioni!</p>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+            </div>
+
+
+
+
+
+
+        </form>
+    </div>
+
+    <!--fine div che contien il form-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="function2.js"></script>
+
+    <script src="https://kit.fontawesome.com/61bd823312.js" crossorigin="anonymous"></script>
+    <script src="function2.js"></script>
+</body>
+
+</html>

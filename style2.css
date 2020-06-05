@@ -1,0 +1,52 @@
+.playfair-font {
+    font-family: 'Playfair Display', serif;
+    color: black;
+}
+
+.margin-logo {
+    margin-left: 2px;
+    margin-top: 2px;
+}
+
+.phead {
+    font-family: 'Playfair Display', serif;
+    color: black;
+    font-size: 40px;
+    font-style: italic;
+}
+
+.pcenter {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-style: italic;
+    color: black;
+}
+
+.body_b {
+    height: 100%;
+    background-image: url("ImgNegozio/sodn.jpg");
+    background-color: rgba(255, 255, 255, 0.1);
+    background-blend-mode: lighten;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.borderColor {
+    border-color: black;
+    border-width: 3px;
+}
+
+.containerS {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-image: url("ImgNegozio/modado.jpg");
+    background-color: rgba(255, 255, 255, 0.6);
+    background-blend-mode: lighten;
+}
+
+.centerText {
+    text-align: center;
+    color: black;
+}
